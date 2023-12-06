@@ -60,20 +60,44 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\03.Assets\HQ PIXEL UI\ASSETS\SCRIPTS\HoverAnimation.cs" />
-    <Compile Include="Assets\03.Assets\HQ PIXEL UI\ASSETS\SCRIPTS\FillImageAnim.cs" />
+    <Compile Include="Assets\02. Scripts\npcTwinScript.cs" />
+    <Compile Include="Assets\02. Scripts\npcGuideScript.cs" />
     <Compile Include="Assets\03.Assets\HQ PIXEL UI\ASSETS\SCRIPTS\ButtonSound.cs" />
-    <Compile Include="Assets\03.Assets\HQ PIXEL UI\ASSETS\SCRIPTS\PositionLerpAnimation.cs" />
     <Compile Include="Assets\03.Assets\HQ PIXEL UI\ASSETS\SCRIPTS\SoundOnEnable.cs" />
     <Compile Include="Assets\03.Assets\HQ PIXEL UI\ASSETS\SCRIPTS\Loading.cs" />
-    <Compile Include="Assets\03.Assets\HQ PIXEL UI\ASSETS\SCRIPTS\RotationAnimation.cs" />
     <Compile Include="Assets\03.Assets\HQ PIXEL UI\ASSETS\SCRIPTS\MenuManager.cs" />
-    <Compile Include="Assets\03.Assets\HQ PIXEL UI\ASSETS\SCRIPTS\MySounder.cs" />
     <Compile Include="Assets\03.Assets\HQ PIXEL UI\ASSETS\SCRIPTS\CanvasGroupAnimation.cs" />
+    <Compile Include="Assets\03.Assets\HQ PIXEL UI\ASSETS\SCRIPTS\FillImageAnim.cs" />
+    <Compile Include="Assets\03.Assets\HQ PIXEL UI\ASSETS\SCRIPTS\PositionLerpAnimation.cs" />
+    <Compile Include="Assets\03.Assets\HQ PIXEL UI\ASSETS\SCRIPTS\RotationAnimation.cs" />
+    <Compile Include="Assets\02. Scripts\LookAtPlayer.cs" />
+    <Compile Include="Assets\03.Assets\HQ PIXEL UI\ASSETS\SCRIPTS\MySounder.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\03.Assets\HQ PIXEL UI\DOCUMENTATION\ReadMe.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\03.Assets\PolygonHorrorMansion\Materials\Shaders\SyntyStudios_Ghost.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\03.Assets\PolygonHorrorMansion\Materials\Shaders\SyntyStudios_Grunge.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -754,11 +778,11 @@
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
@@ -820,11 +844,11 @@
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.XR.Hands.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Hands.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
