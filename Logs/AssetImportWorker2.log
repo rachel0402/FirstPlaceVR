@@ -1,0 +1,2494 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16057 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/GITHUB/FirstPlaceVR
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53117
+Successfully changed project path to: C:/GITHUB/FirstPlaceVR
+C:/GITHUB/FirstPlaceVR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2008] Host "[IP] 192.168.109.1 [Port] 0 [Flags] 2 [Guid] 3964325631 [EditorId] 3964325631 [Version] 1048832 [Id] WindowsEditor(7,Spiegel) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2008] Host "[IP] 192.168.109.1 [Port] 0 [Flags] 2 [Guid] 3964325631 [EditorId] 3964325631 [Version] 1048832 [Id] WindowsEditor(7,Spiegel) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 49.57 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.99 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GITHUB/FirstPlaceVR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX450 (ID=0x1f97)
+    Vendor:   NVIDIA
+    VRAM:     1920 MB
+    Driver:   31.0.15.4617
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015097 seconds.
+- Loaded All Assemblies, in  0.564 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 872 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.326 seconds
+Domain Reload Profiling: 1887ms
+	BeginReloadAssembly (192ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (186ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (209ms)
+				TypeCache.ScanAssembly (191ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1327ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1247ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1038ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.290 seconds
+Refreshing native plugins compatible for Editor in 33.84 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.363 seconds
+Domain Reload Profiling: 2641ms
+	BeginReloadAssembly (262ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (886ms)
+		LoadAssemblies (716ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (345ms)
+			TypeCache.Refresh (290ms)
+				TypeCache.ScanAssembly (268ms)
+			ScanForSourceGeneratedMonoScriptInfo (43ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1363ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1093ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (232ms)
+			ProcessInitializeOnLoadAttributes (634ms)
+			ProcessInitializeOnLoadMethodAttributes (155ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 45.78 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.69 ms.
+Unloading 5568 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (364.9 KB). Loaded Objects now: 6041.
+Memory consumption went from 196.1 MB to 195.8 MB.
+Total: 7.747300 ms (FindLiveObjects: 0.883100 ms CreateObjectMapping: 0.508900 ms MarkObjects: 6.046600 ms  DeleteObjects: 0.307100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 97554.776036 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Cheese_Wheel_01.prefab
+  artifactKey: Guid(cb37a3e27f84a7b4da2c303064c506b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Cheese_Wheel_01.prefab using Guid(cb37a3e27f84a7b4da2c303064c506b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de3260230f2050c0cdd196bf9f8bf0d') in 0.436693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Feather_Pen_01.prefab
+  artifactKey: Guid(f7be4a2bc5fb1f94894e70c59359a6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Feather_Pen_01.prefab using Guid(f7be4a2bc5fb1f94894e70c59359a6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f072a8a1eb713c74426ada44ff13b221') in 0.118487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Powder_01.prefab
+  artifactKey: Guid(af0b08ce416dd9347b1a8884069d4359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Powder_01.prefab using Guid(af0b08ce416dd9347b1a8884069d4359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7254aab60c969c2a0ad6c44adf4b8f10') in 0.093928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Necklace_Hanging_03.prefab
+  artifactKey: Guid(c7ee54e34f0578b459b8f2f1bc7d342e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Necklace_Hanging_03.prefab using Guid(c7ee54e34f0578b459b8f2f1bc7d342e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3837b7749e71f7d9da490e8eb3cd91e4') in 0.076797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Wargames_Piece_11.prefab
+  artifactKey: Guid(2413da8023e24154195cb56665afbd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Wargames_Piece_11.prefab using Guid(2413da8023e24154195cb56665afbd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056638e0da4da8aa748608a50b4b5229') in 0.097488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Jug_03.prefab
+  artifactKey: Guid(1468f220728bf94498c7db58da4997e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Jug_03.prefab using Guid(1468f220728bf94498c7db58da4997e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1ddd16c8a584d7f1fa2665d600eaec') in 0.082314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Book_02.prefab
+  artifactKey: Guid(3b34afe598dadcf449e3242bdd3542e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Book_02.prefab using Guid(3b34afe598dadcf449e3242bdd3542e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a932a9795328788fe54be86253d875') in 0.079917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Goblet_03.prefab
+  artifactKey: Guid(5395abb296986d5488c67caf45e323db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Goblet_03.prefab using Guid(5395abb296986d5488c67caf45e323db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a2682e0b31254cb3605faa24170a26') in 0.077158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Bread_01.prefab
+  artifactKey: Guid(67c2d8a6e520b5342ab173b126b530d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Bread_01.prefab using Guid(67c2d8a6e520b5342ab173b126b530d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a94f7dc460449e92dfcb290806df92') in 0.076271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Plant_01.prefab
+  artifactKey: Guid(c2b89e3e96a1f6649a1316aeb5c73cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Plant_01.prefab using Guid(c2b89e3e96a1f6649a1316aeb5c73cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4735891c261e7ed8b0ebd2c05a7747d5') in 0.076288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Cheese_Wheel_02.prefab
+  artifactKey: Guid(f58c8864fa64e124d9dd3f68c6a563a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Cheese_Wheel_02.prefab using Guid(f58c8864fa64e124d9dd3f68c6a563a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be683feda0ad0d685ce9ccd418375e3') in 0.082882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Pot_01.prefab
+  artifactKey: Guid(8879170a629c28e4cba61ef8d5058c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Pot_01.prefab using Guid(8879170a629c28e4cba61ef8d5058c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ab5a4f8fa8987648895e6367a36ee8') in 0.076691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Bottle_Clear_Labelled_02.prefab
+  artifactKey: Guid(746096dc4f06a7a4c985e2d09797103e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Bottle_Clear_Labelled_02.prefab using Guid(746096dc4f06a7a4c985e2d09797103e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158b16a05b7ebff3d23eaa348da089ae') in 0.079871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_Salami_01.prefab
+  artifactKey: Guid(1eb4d70cd15e4f044ab29c37763ebcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_Salami_01.prefab using Guid(1eb4d70cd15e4f044ab29c37763ebcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1256dcc2a48ec9d66094ef2098ce5c') in 0.067696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Crate_01.prefab
+  artifactKey: Guid(8db1a90d57dda0044a8455a1b7dd5979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Crate_01.prefab using Guid(8db1a90d57dda0044a8455a1b7dd5979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b92a89ba325fed6e81752e0d34f61b') in 0.074314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Cup_02.prefab
+  artifactKey: Guid(75e9b745fc01e464ea61fa479b56401f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Cup_02.prefab using Guid(75e9b745fc01e464ea61fa479b56401f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065caa1d4cfabbc49f785125dacfae7d') in 0.076558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Broom_03.prefab
+  artifactKey: Guid(19b02c4c511b23745a23e81a7708cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Broom_03.prefab using Guid(19b02c4c511b23745a23e81a7708cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7c187e5f4ddefdf48452acf0fb28eb') in 0.074598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Broom_01.prefab
+  artifactKey: Guid(70f362e94e9781c4caef80b37e7fa3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Broom_01.prefab using Guid(70f362e94e9781c4caef80b37e7fa3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9404b90eb1e75bda121536dd2b1a7eb') in 0.072155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Lockpick_Chain_01.prefab
+  artifactKey: Guid(3de7d80373433f94bb3d5312ca85f7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Lockpick_Chain_01.prefab using Guid(3de7d80373433f94bb3d5312ca85f7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385b55f06e79dd47c2118a266bc88b5e') in 0.069593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Saw_01.prefab
+  artifactKey: Guid(26a6d50adcbfdec4385334efb591fa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Saw_01.prefab using Guid(26a6d50adcbfdec4385334efb591fa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ce7b1f210a88df15b4f07ce219d914') in 0.078392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Butterfly_01.prefab
+  artifactKey: Guid(f6a19668a40989b48a48c50ee8e889b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Butterfly_01.prefab using Guid(f6a19668a40989b48a48c50ee8e889b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997ddabe81e65e06d44ac3bc8296e4f1') in 0.078990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Pie_Bowl_01.prefab
+  artifactKey: Guid(5bf71b0a1448e0e4594d89102439d273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Pie_Bowl_01.prefab using Guid(5bf71b0a1448e0e4594d89102439d273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9947abdcfe324791ed9266839dd478') in 0.071135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Rolling_Pin_01.prefab
+  artifactKey: Guid(29dea35c75229904382270681ad6acdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Rolling_Pin_01.prefab using Guid(29dea35c75229904382270681ad6acdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0395184a248cec79c0533dd737b982c') in 0.072507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_Chicken_Raw_01.prefab
+  artifactKey: Guid(8616172864cf66b419eed5ecd8eac44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_Chicken_Raw_01.prefab using Guid(8616172864cf66b419eed5ecd8eac44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac0d63601d9fc851d2e56d62fa6c361') in 0.069362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Cutlery_Spoon_01.prefab
+  artifactKey: Guid(ceeef3d89b597c44188878020b793197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Cutlery_Spoon_01.prefab using Guid(ceeef3d89b597c44188878020b793197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f88a2f913fc95be7593347a1d38b39b') in 0.073232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Ring_10.prefab
+  artifactKey: Guid(744f4afb558cf6742b975ec44039ed93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Ring_10.prefab using Guid(744f4afb558cf6742b975ec44039ed93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be03c59c47f0a7a23007111ed744e56') in 0.074295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Wargames_Piece_13.prefab
+  artifactKey: Guid(862a5dde78ff1814da3d369f688d5571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Wargames_Piece_13.prefab using Guid(862a5dde78ff1814da3d369f688d5571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ee9859e4175fd2cdd063e32323cf1c') in 0.074692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Mortar_Pestle_01.prefab
+  artifactKey: Guid(7c56908fd3eeaa442a6d7bd243e293e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Mortar_Pestle_01.prefab using Guid(7c56908fd3eeaa442a6d7bd243e293e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337c880cd418bea15c5ac620c29d3925') in 0.061154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_01.prefab
+  artifactKey: Guid(13f0214e44510cb438788ca231c0e65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_01.prefab using Guid(13f0214e44510cb438788ca231c0e65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9d3c85e1259e1c5cf0065c2a1a3b3c') in 0.073703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Bottle_Clear_01.prefab
+  artifactKey: Guid(3ae4724fb1ff3e945bff78c432b85209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Bottle_Clear_01.prefab using Guid(3ae4724fb1ff3e945bff78c432b85209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db6cc75a37487afa411b55e3f982203') in 0.071292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Jar_05.prefab
+  artifactKey: Guid(c73a22e4a9a88db458ba6c6bc828466c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Jar_05.prefab using Guid(c73a22e4a9a88db458ba6c6bc828466c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e14c2e3c8dec892fa17311258ae3bfd') in 0.069799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Cheese_Slice_01.prefab
+  artifactKey: Guid(9ebfe32fdd2797347bc3f867d1f9f10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Cheese_Slice_01.prefab using Guid(9ebfe32fdd2797347bc3f867d1f9f10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1524f4ded38fcd3c59674ca54f69263') in 0.071813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Cutlery_Knife_01.prefab
+  artifactKey: Guid(7dedf257cf57dde4e8b18cc1b5acc712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Cutlery_Knife_01.prefab using Guid(7dedf257cf57dde4e8b18cc1b5acc712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b48858c87d6b42275530c49a10ae22') in 0.067266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Pie_01.prefab
+  artifactKey: Guid(7924cc08042dfe24390c7108db37bd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Pie_01.prefab using Guid(7924cc08042dfe24390c7108db37bd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5177d5afcc16b7d09ec1c3d2c0b888') in 0.065566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Wargames_Piece_05.prefab
+  artifactKey: Guid(b58b4b701f0ba844eb86edda35961ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Wargames_Piece_05.prefab using Guid(b58b4b701f0ba844eb86edda35961ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24e038c158ccf6650f16b46d1b171f5') in 0.067812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Potato_02.prefab
+  artifactKey: Guid(d80cffa07430cac4794a7ca3623e11a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Potato_02.prefab using Guid(d80cffa07430cac4794a7ca3623e11a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc13d9bb4d493185f3b455dc7abb5955') in 0.063522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Pickaxe_01.prefab
+  artifactKey: Guid(a32fb9224f50a29488b3fed511ac60a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Pickaxe_01.prefab using Guid(a32fb9224f50a29488b3fed511ac60a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3deb7d8285091a9901da926e295bdee') in 0.075278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Stirring_Stick_01.prefab
+  artifactKey: Guid(f025702fd78a8c049840a8553792465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Stirring_Stick_01.prefab using Guid(f025702fd78a8c049840a8553792465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf4d96f383f31ff454e1cea06b1dc82') in 0.072024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Goblet_02.prefab
+  artifactKey: Guid(f4e5b5b31745cd443b10b2ebfcbf2a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Goblet_02.prefab using Guid(f4e5b5b31745cd443b10b2ebfcbf2a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e5fd99185e7eede443f5272c96ac18') in 0.067579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Bottle_05.prefab
+  artifactKey: Guid(b99388af53bdb794c806ae94de553e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Bottle_05.prefab using Guid(b99388af53bdb794c806ae94de553e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03eef4df8648b2211b28f5849125565b') in 0.066049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Ring_02.prefab
+  artifactKey: Guid(cbdad9c0691fd994fab9e5ee682f098d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Ring_02.prefab using Guid(cbdad9c0691fd994fab9e5ee682f098d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074a7512dd517ceb095dcf9d699498a4') in 0.067290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Necklace_Hanging_02.prefab
+  artifactKey: Guid(d237147bb8d25da4888ff349ab2500d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Necklace_Hanging_02.prefab using Guid(d237147bb8d25da4888ff349ab2500d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc0efad9cd99809faf2846af25131e5') in 0.069528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Feather_02.prefab
+  artifactKey: Guid(add97d1bff74e2d459ac9018699c2c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Feather_02.prefab using Guid(add97d1bff74e2d459ac9018699c2c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236872b72f741fb80f028a50f1fb5453') in 0.078530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Candlestick_04.prefab
+  artifactKey: Guid(b9d40cc3323f25f4083e64bdda9b486f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Candlestick_04.prefab using Guid(b9d40cc3323f25f4083e64bdda9b486f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb486648041001751b829973fcf7137f') in 0.075012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Tea_Pot_01.prefab
+  artifactKey: Guid(9b17fc8b508ff434d99b7348d3081eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Tea_Pot_01.prefab using Guid(9b17fc8b508ff434d99b7348d3081eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813a8138182a8010e69181788fd87f20') in 0.072460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Pouch_01.prefab
+  artifactKey: Guid(45879a9296a948147b133a12268a8240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Pouch_01.prefab using Guid(45879a9296a948147b133a12268a8240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b5ad91e087aea6ba163461de060668') in 0.083014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_Salami_02.prefab
+  artifactKey: Guid(cef228d2e46dbd2498097c8aee967139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_Salami_02.prefab using Guid(cef228d2e46dbd2498097c8aee967139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75de05a7107ab2349f568602fc1da4f6') in 0.082982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_Hook_01.prefab
+  artifactKey: Guid(dc93e1fae2b3cf245a7be8b24ff9643a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_Hook_01.prefab using Guid(dc93e1fae2b3cf245a7be8b24ff9643a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50c8b14ab0fedd961786678e10bd8ab') in 0.066099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Hammer_06.prefab
+  artifactKey: Guid(7639a18a841eba845b867076a5ae4d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Hammer_06.prefab using Guid(7639a18a841eba845b867076a5ae4d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab79c564757d223036e092459da09f8e') in 0.072470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Bottle_13.prefab
+  artifactKey: Guid(246b403fec315e84aa93d3c39228e298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Bottle_13.prefab using Guid(246b403fec315e84aa93d3c39228e298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9652727b165118d6b5ca24540cb89ab4') in 0.079227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Ring_06.prefab
+  artifactKey: Guid(5b56dd7acb6966349a25d924c58eee75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Ring_06.prefab using Guid(5b56dd7acb6966349a25d924c58eee75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa42ca4d0b6700c09b4e1c23e95958db') in 0.067758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Ring_03.prefab
+  artifactKey: Guid(26dfb638820f59a4fb48acf412a70de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Ring_03.prefab using Guid(26dfb638820f59a4fb48acf412a70de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767aad586355335e3c9e77605e68d2b2') in 0.082673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_Fish_07.prefab
+  artifactKey: Guid(8e8aeea58af467a47ac65c815b9ba273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_Fish_07.prefab using Guid(8e8aeea58af467a47ac65c815b9ba273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca440e6fe7e0480a12c3b0bf308e0c7') in 0.077481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Bottle_Clear_Labelled_05.prefab
+  artifactKey: Guid(8802c2b9a3bf06f4687a50beeac5d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Bottle_Clear_Labelled_05.prefab using Guid(8802c2b9a3bf06f4687a50beeac5d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b3965dd5a73be34d6d789f5ea4a128') in 0.064354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Gem_03.prefab
+  artifactKey: Guid(59815b03e478cdc44956f72b6c66bcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Gem_03.prefab using Guid(59815b03e478cdc44956f72b6c66bcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24c1a33515078e4b071c1d945306671') in 0.075304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Cauldron_01.prefab
+  artifactKey: Guid(91be741fc58ce0746ad56d17a1404e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Cauldron_01.prefab using Guid(91be741fc58ce0746ad56d17a1404e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d13640d9b5eb7341225622fa57716d8') in 0.077345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Crystal_04.prefab
+  artifactKey: Guid(f01786fe0532e8048b0a1cba014efa69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Crystal_04.prefab using Guid(f01786fe0532e8048b0a1cba014efa69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057947e029a0c255b7e2708cbe3d43d5') in 0.074680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Horn_01.prefab
+  artifactKey: Guid(08088b7d67dc3dd4a80c09d22b7bb2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Horn_01.prefab using Guid(08088b7d67dc3dd4a80c09d22b7bb2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b8062110909eb2db0593b85d6cc411') in 0.077500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_02.prefab
+  artifactKey: Guid(1dc872114d5fefe47a1747f33dac82aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_02.prefab using Guid(1dc872114d5fefe47a1747f33dac82aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57577071b1f54aac06162df6981b76ef') in 0.070305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Bottle_11.prefab
+  artifactKey: Guid(dbbc2f4abfccabb4d9cd04699a36f6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Bottle_11.prefab using Guid(dbbc2f4abfccabb4d9cd04699a36f6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe0372a5ff2e3572fb1d94cb68e1150') in 0.072238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Crystal_01.prefab
+  artifactKey: Guid(c7f6725c93231294bb5c00d06b1997c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Crystal_01.prefab using Guid(c7f6725c93231294bb5c00d06b1997c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3856380cecb23eb2bc0a9884092f5751') in 0.082915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Bottle_02.prefab
+  artifactKey: Guid(ae830968ee05141439e86f9833e2333a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Bottle_02.prefab using Guid(ae830968ee05141439e86f9833e2333a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f934b8a3d897e6b496245fc1b5aee77') in 0.078888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Bread_02.prefab
+  artifactKey: Guid(84e4c8146d27c4644a3f80d2087c93a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Bread_02.prefab using Guid(84e4c8146d27c4644a3f80d2087c93a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1666ee0cedfdcacb99667d7a1f11ea7c') in 0.053766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Cheese_Slice_02.prefab
+  artifactKey: Guid(0dc49acca006174499de796f7922352e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Cheese_Slice_02.prefab using Guid(0dc49acca006174499de796f7922352e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5ffc8e6380408aded306a0eacbf75d') in 0.067684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Coach_Horn_01.prefab
+  artifactKey: Guid(cba48a565cc2bf74d87dc8e7971abc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Coach_Horn_01.prefab using Guid(cba48a565cc2bf74d87dc8e7971abc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e03be902bd93cd1a60835986051bfa5') in 0.069405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Parchment_04.prefab
+  artifactKey: Guid(4ca4ecaf7a914ff48b1cc53eb3f7b3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Parchment_04.prefab using Guid(4ca4ecaf7a914ff48b1cc53eb3f7b3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97efcd454823eadcb1e9d60b732d097') in 0.071048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Pretzel_01.prefab
+  artifactKey: Guid(e1dc5edb88eea2e49b812c9badfd752f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Pretzel_01.prefab using Guid(e1dc5edb88eea2e49b812c9badfd752f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004db441c8167250822f1fc8d02769c7') in 0.068884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Hammer_04.prefab
+  artifactKey: Guid(ace7f770f2ec73d44a51f105d343979d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Hammer_04.prefab using Guid(ace7f770f2ec73d44a51f105d343979d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74999844cfde064472fcbd837677148d') in 0.065541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Watering_Can_01.prefab
+  artifactKey: Guid(42e15d98e3571cb46bb96b391a72283f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Watering_Can_01.prefab using Guid(42e15d98e3571cb46bb96b391a72283f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52070b403dd4e6175a4c56bc0cb7788') in 0.062514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_Cleaver_01.prefab
+  artifactKey: Guid(d828449932b97d14fb31e712855e8e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_Cleaver_01.prefab using Guid(d828449932b97d14fb31e712855e8e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fa72f9f2a1d1f1396139299f846adb') in 0.070501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Candlestick_03.prefab
+  artifactKey: Guid(c6dd2b4c0cd61aa46bcbf10b25a4d903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Candlestick_03.prefab using Guid(c6dd2b4c0cd61aa46bcbf10b25a4d903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deea266dfef60d550f3a7703746cb676') in 0.074229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Hammer_02.prefab
+  artifactKey: Guid(34434a91e1e47d94ba3fbc7f377d80d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Hammer_02.prefab using Guid(34434a91e1e47d94ba3fbc7f377d80d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd938a2c5b094abe537ce3671d252df52') in 0.079212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_Fish_05.prefab
+  artifactKey: Guid(1bbb3fb4b5006014da5b34f49d1a0551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_Fish_05.prefab using Guid(1bbb3fb4b5006014da5b34f49d1a0551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4135306ecf820992d8c5587db30bcc2') in 0.076587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Goblet_01.prefab
+  artifactKey: Guid(729256840a973af45bdf43de7f6df69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Goblet_01.prefab using Guid(729256840a973af45bdf43de7f6df69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54baf7806f5e1ef3ec6f1c4a6fad9def') in 0.087607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Beetle_01.prefab
+  artifactKey: Guid(08075d02279e9b245b7ab442b45ce763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Beetle_01.prefab using Guid(08075d02279e9b245b7ab442b45ce763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf20734e3e0d62f12f234d7bae6bac9') in 0.076970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_Fish_02.prefab
+  artifactKey: Guid(971f9f98d9b1a0e4b9d016016bcd6c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_Fish_02.prefab using Guid(971f9f98d9b1a0e4b9d016016bcd6c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b950de7dc62d7cb5660daed5d25e1f') in 0.080509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Coat_Hanger_02.prefab
+  artifactKey: Guid(856696f659148d444961760a273d3d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Coat_Hanger_02.prefab using Guid(856696f659148d444961760a273d3d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75944837fa6032e4a7434faeedd178c') in 0.067515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Necklace_Flat_02.prefab
+  artifactKey: Guid(159aea161a5f2b146ba78bd85c72134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Necklace_Flat_02.prefab using Guid(159aea161a5f2b146ba78bd85c72134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e379cc4ce930a25f69fabafbdbcfbfca') in 0.080447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_Fish_04.prefab
+  artifactKey: Guid(c79337d66615cd741a533040c943e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Meat_Fish_04.prefab using Guid(c79337d66615cd741a533040c943e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729639e2a4074de011c7fb434346f820') in 0.070861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Book_04.prefab
+  artifactKey: Guid(a6d6168843a460e49b9a16cd0d3fbbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Book_04.prefab using Guid(a6d6168843a460e49b9a16cd0d3fbbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3498f9e2fe2e47bd363d5ed7cd333c09') in 0.059310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Necklace_Flat_01.prefab
+  artifactKey: Guid(7c319fce068fa3940afcef5b479906ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Necklace_Flat_01.prefab using Guid(7c319fce068fa3940afcef5b479906ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116cd11625b089361fb9a41f9f3f7adf') in 0.072080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Wargames_Piece_09.prefab
+  artifactKey: Guid(a386740d31236b94b92dc9912d897192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Items/SM_Item_Wargames_Piece_09.prefab using Guid(a386740d31236b94b92dc9912d897192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc1e592c3175a399e34a04fb358e450') in 0.065898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.795 seconds
+Refreshing native plugins compatible for Editor in 28.14 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.422 seconds
+Domain Reload Profiling: 3204ms
+	BeginReloadAssembly (257ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (412ms)
+		LoadAssemblies (532ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2422ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1035ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (71ms)
+			SetLoadedEditorAssemblies (21ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (237ms)
+			ProcessInitializeOnLoadAttributes (547ms)
+			ProcessInitializeOnLoadMethodAttributes (143ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 73.64 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+Unloading 5516 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (336.9 KB). Loaded Objects now: 6052.
+Memory consumption went from 188.4 MB to 188.1 MB.
+Total: 10.436200 ms (FindLiveObjects: 0.604100 ms CreateObjectMapping: 0.746000 ms MarkObjects: 8.407800 ms  DeleteObjects: 0.676600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.759 seconds
+Refreshing native plugins compatible for Editor in 45.99 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.410 seconds
+Domain Reload Profiling: 3161ms
+	BeginReloadAssembly (229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (406ms)
+		LoadAssemblies (498ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2411ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (960ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (216ms)
+			ProcessInitializeOnLoadAttributes (538ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 63.23 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (336.9 KB). Loaded Objects now: 6056.
+Memory consumption went from 190.6 MB to 190.3 MB.
+Total: 5.432500 ms (FindLiveObjects: 0.519400 ms CreateObjectMapping: 0.454800 ms MarkObjects: 4.206400 ms  DeleteObjects: 0.250400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.792 seconds
+Refreshing native plugins compatible for Editor in 27.20 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.315 seconds
+Domain Reload Profiling: 3094ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (391ms)
+		LoadAssemblies (521ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2316ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (975ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (211ms)
+			ProcessInitializeOnLoadAttributes (552ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 48.94 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (336.9 KB). Loaded Objects now: 6060.
+Memory consumption went from 192.5 MB to 192.2 MB.
+Total: 6.121800 ms (FindLiveObjects: 1.086700 ms CreateObjectMapping: 0.728100 ms MarkObjects: 4.108000 ms  DeleteObjects: 0.197500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.765 seconds
+Refreshing native plugins compatible for Editor in 34.19 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.471 seconds
+Domain Reload Profiling: 3226ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (408ms)
+		LoadAssemblies (535ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2471ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1076ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (256ms)
+			ProcessInitializeOnLoadAttributes (589ms)
+			ProcessInitializeOnLoadMethodAttributes (149ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 38.40 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (337.0 KB). Loaded Objects now: 6064.
+Memory consumption went from 194.5 MB to 194.1 MB.
+Total: 5.144300 ms (FindLiveObjects: 0.506700 ms CreateObjectMapping: 0.461000 ms MarkObjects: 3.896000 ms  DeleteObjects: 0.278100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.778 seconds
+Refreshing native plugins compatible for Editor in 29.95 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.402 seconds
+Domain Reload Profiling: 3168ms
+	BeginReloadAssembly (228ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (434ms)
+		LoadAssemblies (537ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2403ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1029ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (214ms)
+			ProcessInitializeOnLoadAttributes (620ms)
+			ProcessInitializeOnLoadMethodAttributes (140ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 32.08 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (337.0 KB). Loaded Objects now: 6068.
+Memory consumption went from 196.3 MB to 196.0 MB.
+Total: 5.579500 ms (FindLiveObjects: 0.995700 ms CreateObjectMapping: 0.492400 ms MarkObjects: 3.899000 ms  DeleteObjects: 0.191000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.828 seconds
+Refreshing native plugins compatible for Editor in 32.34 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.368 seconds
+Domain Reload Profiling: 3188ms
+	BeginReloadAssembly (297ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (419ms)
+		LoadAssemblies (565ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2369ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1007ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (248ms)
+			ProcessInitializeOnLoadAttributes (552ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 39.79 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (337.0 KB). Loaded Objects now: 6072.
+Memory consumption went from 198.3 MB to 198.0 MB.
+Total: 5.625600 ms (FindLiveObjects: 0.920500 ms CreateObjectMapping: 0.483200 ms MarkObjects: 4.003100 ms  DeleteObjects: 0.213500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.864 seconds
+Refreshing native plugins compatible for Editor in 31.29 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.459 seconds
+Domain Reload Profiling: 3311ms
+	BeginReloadAssembly (342ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (408ms)
+		LoadAssemblies (581ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2459ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1005ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (189ms)
+			ProcessInitializeOnLoadAttributes (619ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 62.42 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (337.0 KB). Loaded Objects now: 6076.
+Memory consumption went from 200.2 MB to 199.9 MB.
+Total: 7.317700 ms (FindLiveObjects: 0.809300 ms CreateObjectMapping: 0.662700 ms MarkObjects: 5.611600 ms  DeleteObjects: 0.232300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.737 seconds
+Refreshing native plugins compatible for Editor in 33.36 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.268 seconds
+Domain Reload Profiling: 2997ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (384ms)
+		LoadAssemblies (501ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2269ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (989ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (236ms)
+			ProcessInitializeOnLoadAttributes (528ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 57.70 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (337.1 KB). Loaded Objects now: 6080.
+Memory consumption went from 202.1 MB to 201.8 MB.
+Total: 10.589600 ms (FindLiveObjects: 0.741300 ms CreateObjectMapping: 0.702800 ms MarkObjects: 8.910800 ms  DeleteObjects: 0.232600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.736 seconds
+Refreshing native plugins compatible for Editor in 29.27 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.513 seconds
+Domain Reload Profiling: 3238ms
+	BeginReloadAssembly (218ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (416ms)
+		LoadAssemblies (512ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2514ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1116ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (224ms)
+			ProcessInitializeOnLoadAttributes (626ms)
+			ProcessInitializeOnLoadMethodAttributes (192ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 112.55 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (337.1 KB). Loaded Objects now: 6084.
+Memory consumption went from 204.1 MB to 203.7 MB.
+Total: 7.326100 ms (FindLiveObjects: 1.046300 ms CreateObjectMapping: 0.661300 ms MarkObjects: 5.075800 ms  DeleteObjects: 0.541000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.803 seconds
+Refreshing native plugins compatible for Editor in 39.08 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.445 seconds
+Domain Reload Profiling: 3239ms
+	BeginReloadAssembly (270ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (411ms)
+		LoadAssemblies (522ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2446ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1070ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (223ms)
+			ProcessInitializeOnLoadAttributes (597ms)
+			ProcessInitializeOnLoadMethodAttributes (182ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 78.07 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (337.1 KB). Loaded Objects now: 6088.
+Memory consumption went from 205.9 MB to 205.6 MB.
+Total: 8.262500 ms (FindLiveObjects: 0.936000 ms CreateObjectMapping: 0.730500 ms MarkObjects: 6.354100 ms  DeleteObjects: 0.239800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.792 seconds
+Refreshing native plugins compatible for Editor in 26.13 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.581 seconds
+Domain Reload Profiling: 3364ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (411ms)
+		LoadAssemblies (535ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2582ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1128ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (260ms)
+			ProcessInitializeOnLoadAttributes (582ms)
+			ProcessInitializeOnLoadMethodAttributes (203ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 91.97 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
+Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (336.5 KB). Loaded Objects now: 6092.
+Memory consumption went from 207.9 MB to 207.6 MB.
+Total: 16.995400 ms (FindLiveObjects: 0.746800 ms CreateObjectMapping: 0.922600 ms MarkObjects: 15.058300 ms  DeleteObjects: 0.265500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.892 seconds
+Refreshing native plugins compatible for Editor in 33.93 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.634 seconds
+Domain Reload Profiling: 3513ms
+	BeginReloadAssembly (273ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (488ms)
+		LoadAssemblies (611ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2635ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1009ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (246ms)
+			ProcessInitializeOnLoadAttributes (534ms)
+			ProcessInitializeOnLoadMethodAttributes (158ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 68.34 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (337.1 KB). Loaded Objects now: 6096.
+Memory consumption went from 209.8 MB to 209.5 MB.
+Total: 7.865100 ms (FindLiveObjects: 1.063400 ms CreateObjectMapping: 0.785700 ms MarkObjects: 5.798700 ms  DeleteObjects: 0.215700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1186.431358 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs
+  artifactKey: Guid(d93dd55b5e3f13549ab7e819935c2b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs using Guid(d93dd55b5e3f13549ab7e819935c2b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae67877e31a23a4c8716db8f661f42a') in 0.013046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.041127 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/XR Interaction Setup.prefab
+  artifactKey: Guid(895f6f3c2d334633b5800312285058d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/XR Interaction Setup.prefab using Guid(895f6f3c2d334633b5800312285058d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae3cf10f713f34fed470526aa32ecf3') in 0.307756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 618
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.799 seconds
+Refreshing native plugins compatible for Editor in 30.75 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.335 seconds
+Domain Reload Profiling: 3120ms
+	BeginReloadAssembly (253ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (419ms)
+		LoadAssemblies (538ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2336ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (978ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (222ms)
+			ProcessInitializeOnLoadAttributes (551ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 36.88 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 5516 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (337.9 KB). Loaded Objects now: 6103.
+Memory consumption went from 211.6 MB to 211.3 MB.
+Total: 5.639300 ms (FindLiveObjects: 0.480600 ms CreateObjectMapping: 0.638500 ms MarkObjects: 4.325400 ms  DeleteObjects: 0.193300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.765 seconds
+Refreshing native plugins compatible for Editor in 31.79 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.336 seconds
+Domain Reload Profiling: 3089ms
+	BeginReloadAssembly (239ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (402ms)
+		LoadAssemblies (533ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2336ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (965ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (213ms)
+			ProcessInitializeOnLoadAttributes (559ms)
+			ProcessInitializeOnLoadMethodAttributes (140ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 40.60 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (337.0 KB). Loaded Objects now: 6107.
+Memory consumption went from 213.8 MB to 213.5 MB.
+Total: 5.379600 ms (FindLiveObjects: 0.502900 ms CreateObjectMapping: 0.414700 ms MarkObjects: 4.266100 ms  DeleteObjects: 0.194100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.750 seconds
+Refreshing native plugins compatible for Editor in 28.71 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.363 seconds
+Domain Reload Profiling: 3106ms
+	BeginReloadAssembly (240ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (393ms)
+		LoadAssemblies (487ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2364ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1022ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (217ms)
+			ProcessInitializeOnLoadAttributes (570ms)
+			ProcessInitializeOnLoadMethodAttributes (157ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 40.92 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (337.1 KB). Loaded Objects now: 6111.
+Memory consumption went from 215.7 MB to 215.3 MB.
+Total: 5.389700 ms (FindLiveObjects: 0.490200 ms CreateObjectMapping: 0.431200 ms MarkObjects: 4.276900 ms  DeleteObjects: 0.189600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.700 seconds
+Refreshing native plugins compatible for Editor in 29.80 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.305 seconds
+Domain Reload Profiling: 2998ms
+	BeginReloadAssembly (212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (383ms)
+		LoadAssemblies (470ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2307ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (990ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (201ms)
+			ProcessInitializeOnLoadAttributes (584ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 41.10 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (337.1 KB). Loaded Objects now: 6115.
+Memory consumption went from 217.6 MB to 217.3 MB.
+Total: 5.251100 ms (FindLiveObjects: 0.553400 ms CreateObjectMapping: 0.506900 ms MarkObjects: 3.996800 ms  DeleteObjects: 0.193000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.732 seconds
+Refreshing native plugins compatible for Editor in 36.46 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000c9] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.439 seconds
+Domain Reload Profiling: 3163ms
+	BeginReloadAssembly (227ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (395ms)
+		LoadAssemblies (503ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2440ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1055ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (196ms)
+			ProcessInitializeOnLoadAttributes (627ms)
+			ProcessInitializeOnLoadMethodAttributes (164ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 35.33 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (336.7 KB). Loaded Objects now: 6119.
+Memory consumption went from 219.6 MB to 219.2 MB.
+Total: 5.244400 ms (FindLiveObjects: 0.532400 ms CreateObjectMapping: 0.480900 ms MarkObjects: 4.040800 ms  DeleteObjects: 0.189100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 582.487945 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors
+  artifactKey: Guid(f585a443d5224c19adcc94a236a4b2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors using Guid(f585a443d5224c19adcc94a236a4b2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33df72c06daff6adc3f1bb9723d2c0fe') in 0.013644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.053700 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab
+  artifactKey: Guid(27024f5809f4a4347b9cd7f26a1bdf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab using Guid(27024f5809f4a4347b9cd7f26a1bdf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93744d4a9398589bd6f34d411a9b9d25') in 0.149926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab
+  artifactKey: Guid(c1800acf6366418a9b5f610249000331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab using Guid(c1800acf6366418a9b5f610249000331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79e7f7010200dd92cc9c76bb986ca3d') in 0.037055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 7.406022 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters
+  artifactKey: Guid(261c87575100d8a419e8a2a56681257c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters using Guid(261c87575100d8a419e8a2a56681257c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d891d5bf910f5006735d1fabd306a5') in 0.001104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.137218 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Bartender_01.prefab
+  artifactKey: Guid(624582b3b65da9a45bc1d204b8a69122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Bartender_01.prefab using Guid(624582b3b65da9a45bc1d204b8a69122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a6ecb120473cb9b52a0f0edca3e2e8') in 0.160459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 198
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Princess_01.prefab
+  artifactKey: Guid(119427e8efe54b54ea5b98536358014a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Princess_01.prefab using Guid(119427e8efe54b54ea5b98536358014a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd37c439f2071ee89eae7ab6eed115b3') in 0.104519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 203
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Peasant_Female_01.prefab
+  artifactKey: Guid(8d458e1bc503f3b4d89e72e841681909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Peasant_Female_01.prefab using Guid(8d458e1bc503f3b4d89e72e841681909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b1a9ae04aa1779498f764f117f7528') in 0.065582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 198
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Merchant_01.prefab
+  artifactKey: Guid(4f671f96ada2b43438b517dbc501e523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Merchant_01.prefab using Guid(4f671f96ada2b43438b517dbc501e523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79425ff8ee536856e7e48eb4098821c9') in 0.060599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 198
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_King_01.prefab
+  artifactKey: Guid(78bc42a4ceca0424ca04f3b7e68989ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_King_01.prefab using Guid(78bc42a4ceca0424ca04f3b7e68989ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b1fdb318f70a547b626534126c3059') in 0.086684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 229
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Peasant_Male_01.prefab
+  artifactKey: Guid(b3a21033f5e25ef47a403070d1d96983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Peasant_Male_01.prefab using Guid(b3a21033f5e25ef47a403070d1d96983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec09b2c04f5ccdf200a8e5293c64c49') in 0.063936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 198
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Mage_01.prefab
+  artifactKey: Guid(e0331453113676149a9c0b2bc03e60de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Mage_01.prefab using Guid(e0331453113676149a9c0b2bc03e60de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dada8fecbbd9b7e2a517fe0a9c23d1e7') in 0.069928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 224
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Prince_01.prefab
+  artifactKey: Guid(a8884fa09da891440a328b0212cd9ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Prince_01.prefab using Guid(a8884fa09da891440a328b0212cd9ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c9a8a4e4fc8c0e4b5df1fd546aa060') in 0.064916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 198
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Jester_01.prefab
+  artifactKey: Guid(24e2f7a008fde164698a13a05b6918f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Jester_01.prefab using Guid(24e2f7a008fde164698a13a05b6918f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae8cd582993efa7348587f43c8bb2d3') in 0.077595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 198
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Nun_01.prefab
+  artifactKey: Guid(2154df2b1029fce44a5ed87edcaa0546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Assets/PolygonFantasyKingdom/Prefabs/Characters/SM_Chr_Nun_01.prefab using Guid(2154df2b1029fce44a5ed87edcaa0546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3c31120ddc6c39252593a596b79617') in 0.072380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 198
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
