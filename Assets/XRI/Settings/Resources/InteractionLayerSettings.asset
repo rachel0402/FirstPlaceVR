@@ -41,7 +41,7 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - twin_trigger
+  - incorrect_twin
+  - correct_twin
   - Teleport

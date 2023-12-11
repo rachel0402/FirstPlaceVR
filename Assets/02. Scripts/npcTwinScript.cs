@@ -28,20 +28,23 @@ public class npcTwinScript : MonoBehaviour
 
     public Light twin_light;
     public Light fortune_light;
+    
+    public GameObject socket1, socket2, socket3,socket4;
 
     private void Awake()
     {
         dialogue_twin = new String[100];
         // 처음 intro 대사
-        dialogue_twin[0] = "안녕? 우리는 쌍둥이 상인 어쩌구 저쩌구라고 해";
-        dialogue_twin[1] = "text1";
-        dialogue_twin[2] = "text2";
-        dialogue_twin[3] = "text3";
-        dialogue_twin[4] = "text4";
-        dialogue_twin[5] = "text5";
-        dialogue_twin[6] = "text6";
-        dialogue_twin[7] = "text7";
-        dialogue_twin[8] = "우리 상점에서 다른 물품을 3개 찾으면 얌전히 보내주도록 하지!";
+        dialogue_twin[0] = "안녕? 우리는 쌍둥이 상인 \n펠리아스와 넬레아스라고 해";
+        dialogue_twin[1] = "미스테리 저택 찾고 있지?";
+        dialogue_twin[2] = "나약해 보이는데\n의외로 용감하구나";
+        dialogue_twin[3] = "우리는 그 저택을 아주 잘 알고 있어";
+        dialogue_twin[4] = "그렇지만 순순히 보내줄 순 없지";
+        dialogue_twin[5] = "우리 상점에서\n다른 물건을 3개 찾으면 알려줄게";
+        dialogue_twin[6] = "저 테이블에 3개의 물건을 두면 돼";
+        dialogue_twin[7] = "과연 다 찾을 수 있을까?";
+        dialogue_twin[8] = "다 찾았으면 우리에게 깃발을 줘~";
+
 
     }
 
@@ -49,6 +52,11 @@ public class npcTwinScript : MonoBehaviour
     {
         npcSpeechBubble.gameObject.SetActive(false);
         this.aud = GetComponent<AudioSource>();
+
+        socket1.gameObject.SetActive(false);
+        socket2.gameObject.SetActive(false);
+        socket3.gameObject.SetActive(false);
+        socket4.gameObject.SetActive(false);
 
     }
 
@@ -72,6 +80,7 @@ public class npcTwinScript : MonoBehaviour
             twin_light.gameObject.SetActive(false);
             npcSpeechBubble.gameObject.SetActive(true);
             npc_dialog.text = dialogue_twin[count];
+            this.GetComponent<Collider>().enabled = false;
         }
     }
 
@@ -87,9 +96,14 @@ public class npcTwinScript : MonoBehaviour
     public void NextDialog()
     {
         if (count < 8) { count++; }
-        if (count == 8)
+        if (count == 7)
         {
           //  fortune_light.gameObject.SetActive(true);
+          socket1.gameObject.SetActive(true);
+            socket2.gameObject.SetActive(true); 
+            socket3.gameObject.SetActive(true);
+            socket4.gameObject.SetActive(true);
+
         }
         npc_dialog.text = dialogue_twin[count];
     }
