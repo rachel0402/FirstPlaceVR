@@ -15,6 +15,5 @@ public class RevealObject : MonoBehaviour
     {
             Mat.SetVector("MyLightPosition", SpotLight.transform.position);
             Mat.SetVector("MyLightDirection", -SpotLight.transform.forward);
-            //Mat.SetFloat ("MyLightAngle", SpotLight.spotAngle         );
     }
 }
