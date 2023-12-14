@@ -88,7 +88,7 @@ Material:
     m_Colors:
     - MyColor: {r: 0.5754717, g: 0, b: 0, a: 1}
     - MyLightDirection: {r: -0, g: 0.9848078, b: 0.17364812, a: 0}
-    - MyLightPosition: {r: 9.55, g: 4.6, b: -26.23, a: 0}
+    - MyLightPosition: {r: 9.14, g: 4.6, b: -26.23, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

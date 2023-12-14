@@ -10,11 +10,11 @@ public class RevealObject : MonoBehaviour
     {
         Mat = GetComponent<Renderer>().sharedMaterial;
     }
-	
-	void Update ()
+
+    void Update()
     {
-        Mat.SetVector("MyLightPosition",  SpotLight.transform.position);
-        Mat.SetVector("MyLightDirection", -SpotLight.transform.forward );
-        //Mat.SetFloat ("MyLightAngle", SpotLight.spotAngle         );
+            Mat.SetVector("MyLightPosition", SpotLight.transform.position);
+            Mat.SetVector("MyLightDirection", -SpotLight.transform.forward);
+            //Mat.SetFloat ("MyLightAngle", SpotLight.spotAngle         );
     }
 }
