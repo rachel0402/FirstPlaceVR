@@ -3,16 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Correct_twin
-  - Incorrect_twin
-<<<<<<< Updated upstream
-  - SamplesInfoPanel
-=======
-  - Target
-  - SamplesInfoPanel
-  - Arrow
->>>>>>> Stashed changes
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -20,18 +11,11 @@ TagManager:
   - 
   - Water
   - UI
-  - Environment
-<<<<<<< Updated upstream
-  - Draw
-  - 
-  - Hands
-  - GrabbableHandler
-=======
-  - Bow
-  - Arrow
   - 
   - 
->>>>>>> Stashed changes
+  - 
+  - 
+  - 
   - 
   - 
   - 
