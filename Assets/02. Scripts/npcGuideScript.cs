@@ -23,7 +23,6 @@ public class npcGuideScript : MonoBehaviour
     static private String[] dialogue;
 
     public TextMeshProUGUI npc_dialog;
-    public GameObject noticeCube;
     public Canvas npcSpeechBubble;
 
 
@@ -71,7 +70,6 @@ public class npcGuideScript : MonoBehaviour
         {
             this.aud.PlayOneShot(this.npcMeetsound,1);
             Debug.Log("Player entered the collider!");
-            noticeCube.SetActive(false);
             guide_light.gameObject.SetActive(false);
             npcSpeechBubble.gameObject.SetActive(true);
             npc_dialog.text = dialogue[count];

@@ -6,7 +6,13 @@ TagManager:
   tags:
   - Correct_twin
   - Incorrect_twin
+<<<<<<< Updated upstream
   - SamplesInfoPanel
+=======
+  - Target
+  - SamplesInfoPanel
+  - Arrow
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
@@ -15,10 +21,17 @@ TagManager:
   - Water
   - UI
   - Environment
+<<<<<<< Updated upstream
   - Draw
   - 
   - Hands
   - GrabbableHandler
+=======
+  - Bow
+  - Arrow
+  - 
+  - 
+>>>>>>> Stashed changes
   - 
   - 
   - 
